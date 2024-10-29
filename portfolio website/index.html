@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arvind - Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: rgb(0, 0, 33);
+      color: white;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 40px;
+      background-color: rgb(1, 1, 49);
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      list-style: none;
+      margin: 0 23px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+
+    nav ul li a:hover {
+      color: lavender;
+      font-size: 1.01rem;
+    }
+
+    .left {
+      font-size: 1.5rem;
+    }
+
+    .firstSection {
+      display: flex;
+      justify-content: space-around;
+      margin: 130px 0;
+      align-items: center;
+    }
+
+    .firstSection>div {
+      width: 30%;
+    }
+
+    .leftSection {
+      font-size: 3rem;
+      margin: 70px 0;
+    }
+
+    .rightSection img {
+      width: 80%;
+      margin: 50px 0;
+    }
+
+    .purple {
+      color: rgb(135, 55, 210);
+    }
+
+    #element {
+      color: rgb(135, 55, 210);
+    }
+
+    .secondSection {
+      max-width: 80vw;
+      margin: auto;
+      padding: 40px;
+    }
+
+    .secondSection h1 {
+      font-size: 1.9rem;
+    }
+
+    .textgray {
+      color: gray;
+    }
+
+    .experience {
+      margin: 30px 0;
+    }
+
+    .experience h2 {
+      font-size: 1.6rem;
+      color: lavender;
+      margin-bottom: 10px;
+    }
+
+    .experience p {
+      color: lightgray;
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+
+    /* Footer styling */
+    footer {
+      background-color: rgb(1, 1, 49);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .social-icons {
+      margin: 10px 0;
+    }
+
+    .social-icons a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 1.2rem;
+    }
+
+    .social-icons a:hover {
+      color: rgb(135, 55, 210);
+    }
+
+    .copyright {
+      font-size: 0.9rem;
+      color: gray;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">Arvind's Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">Services</a></li>
+          <li><a href="/">Projects</a></li>
+          <li><a href="/">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="firstSection">
+      <div class="leftSection">
+        Hi, My name is <span class="purple">Arvind</span>
+        <div>and I am a passionate</div>
+        <span id="element"></span>
+      </div>
+      <div class="rightSection">
+        <img src="—Pngtree—game development and coding_14520777.png" alt="photo">
+      </div>
+    </section>
+    <hr>
+
+    <section class="secondSection">
+      <span class="textgray">What I have done so far</span>
+      <h1>Work Experience</h1>
+
+      <div class="experience">
+        <h2>Web Development Internship (Company XYZ)</h2>
+        <p>During my internship at Company XYZ, I developed responsive web applications and gained hands-on experience with:</p>
+        <ul>
+          <li><strong>HTML/CSS:</strong> Structured and styled web pages for optimal user experience across devices.</li>
+          <li><strong>JavaScript:</strong> Used JavaScript for dynamic interactions, focusing on DOM manipulation and AJAX.</li>
+        </ul>
+      </div>
+
+      <div class="experience">
+        <h2>Projects and Skills in Backend Development</h2>
+        <p>Worked on backend development projects and acquired skills in:</p>
+        <ul>
+          <li><strong>Node.js & Express.js:</strong> Built RESTful APIs, learned middleware, and asynchronous operations for scalable applications.</li>
+          <li><strong>MongoDB:</strong> Designed document-based schemas and performed CRUD operations in non-relational databases.</li>
+          <li><strong>SQL and DBMS:</strong> Studied relational database design, normalization, and query optimization for data integrity.</li>
+        </ul>
+      </div>
+
+      <div class="experience">
+        <h2>Backend Development with PHP</h2>
+        <p>Explored PHP for server-side scripting and database interaction with MySQL, creating secure and interactive web applications.</p>
+      </div>
+
+      <div class="experience">
+        <h2>Knowledge of Modern Frontend Technologies</h2>
+        <p>In addition to my backend skills, I have a strong foundation in:</p>
+        <ul>
+          <li><strong>JavaScript Frameworks:</strong> Understanding of React’s component-based architecture, state, and hooks.</li>
+          <li><strong>Version Control (Git):</strong> Used Git for effective team collaboration and version control in projects.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer section -->
+  <footer>
+    <div class="social-icons">
+      <a href="#" target="_blank">LinkedIn</a>
+      <a href="#" target="_blank">GitHub</a>
+      <a href="#" target="_blank">Twitter</a>
+    </div>
+    <div class="copyright">
+      &copy; 2024 Arvind. All Rights Reserved.
+    </div>
+  </footer>
+
+  <!-- Typed.js setup for animation -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Graphic Designer', 'Video Editor'],
+      typeSpeed: 100,
+    });
+  </script>
+</body>
+
+</html>
